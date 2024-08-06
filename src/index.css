@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Montserrat Variable', sans-serif;
+    padding: 0 13.5%;
+}
+
+.inter {
+    font-family: 'Inter Variable', sans-serif;
+}
