@@ -9,7 +9,7 @@ export default function ErrorPage() {
       <div className={'w-full flex-grow flex justify-center items-center'}>
         <div className={'flex gap-5'}>
           <div>
-            <img src={'src/assets/img/icons/404.jpg'} className={'w-64'}></img>
+            <img src={'/assets/img/icons/404.jpg'} alt={'404'} className={'w-64'}></img>
           </div>
           <div className={'flex flex-col justify-center'}>
             <div>
