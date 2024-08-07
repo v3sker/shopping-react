@@ -14,7 +14,9 @@ export default function Home() {
           <div className={`flex flex-col justify-center`}>
             <h1 className={`text-5xl font-black w-96`}>The best Online-shop in Moldova!</h1>
             <p className={`text-l w-96 mt-3.5`}>Start shopping today, ang discover the best deals only for you, with the fastest delivery!</p>
-            <IconButton path={'/store'} text={'Shop now'} icon={faDoorOpen} params={`mt-10 px-6 py-2 text-xl font-semibold`} />
+            <div className={`w-fit mt-10`}>
+              <IconButton path={'/store'} text={'Shop now'} icon={faDoorOpen} params={`px-6 py-2 text-xl font-semibold`} />
+            </div>
           </div>
         </div>
       </main>
