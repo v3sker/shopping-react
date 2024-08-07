@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Link} from "react-router-dom";
 import {faCartShopping} from "@fortawesome/free-solid-svg-icons";
@@ -16,7 +18,7 @@ function IconButton({ path, text, icon, params }) {
   )
 }
 
-function AddToCartButton({ itemId }) {
+function AddToCartButton() {
   return (
     <p
       className={`flex justify-center items-center gap-2 w-fit text-center text-neutral-500 bg-white px-2 py-2 
