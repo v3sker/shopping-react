@@ -9,7 +9,7 @@ export default function Home() {
       <main className={`flex-grow flex justify-center items-center mb-20`}>
         <div className={`flex`}>
           <div>
-            <img src="/src/assets/img/icons/cart.png" alt="" className={`h-96`}/>
+            <img src="/assets/img/icons/cart.png" alt="" className={`h-96`}/>
           </div>
           <div className={`flex flex-col justify-center`}>
             <h1 className={`text-5xl font-black w-96`}>The best Online-shop in Moldova!</h1>
