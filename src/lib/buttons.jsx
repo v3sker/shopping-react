@@ -1,7 +1,8 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Link} from "react-router-dom";
+import {faCartShopping} from "@fortawesome/free-solid-svg-icons";
 
-export default function IconButton({ path, text, icon, params }) {
+function IconButton({ path, text, icon, params }) {
   return (
     <Link to={path}>
       <p
@@ -14,3 +15,16 @@ export default function IconButton({ path, text, icon, params }) {
     </Link>
   )
 }
+
+function AddToCartButton({ itemId }) {
+  return (
+    <p
+      className={`flex justify-center items-center gap-2 w-fit text-center text-neutral-500 bg-white px-2 py-2 
+      rounded-md transition font-medium hover:bg-neutral-800 hover:text-white cursor-pointer`}
+    >
+      <FontAwesomeIcon width={15} icon={faCartShopping}/>
+    </p>
+  );
+}
+
+export { IconButton, AddToCartButton };

@@ -1,5 +1,5 @@
 import Navbar from '../lib/navbar.jsx';
-import IconButton from '../lib/buttons.jsx';
+import { IconButton } from '../lib/buttons.jsx';
 import { faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
 
 export default function ErrorPage() {
