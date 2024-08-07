@@ -27,11 +27,11 @@ export default function Navbar() {
       </div>
       <div className={'flex-grow w-1/3 flex justify-center'}>
         <Link to={'/'}>
-          <img src="src/assets/img/logos/bitwave.png" alt="bitwave logo" className={'w-12'}/>
+          <img src="/src/assets/img/logos/bitwave.png" alt="bitwave logo" className={'w-12'}/>
         </Link>
       </div>
       <div className={'flex-grow flex flex-row-reverse items-center gap-4 w-1/3'}>
-        <img src="src/assets/img/icons/default-profile-pic.jpg" alt="profile picture" className={'w-8 rounded-full cursor-pointer'}/>
+        <img src="/src/assets/img/icons/default-profile-pic.jpg" alt="profile picture" className={'w-8 rounded-full cursor-pointer'}/>
         <span className={`h-6 w-0.5 bg-neutral-400`}></span>
         <Link to={'/cart'}>
           <p
